@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "repo": {
+      "name": "hello-world",
+      "full_name": "octocat/hello-world",
+      "html_url": "https://github.com/octocat/hello-world",
+      "description": "My first repo on GitHub!",
+      "language": "JavaScript",
+      "stargazers_count": 42
+    },
+    "starred_at": "2026-08-01T12:34:56Z"
+  },
+  {
+    "id": "2",
+    "repo": {
+      "name": "cli-tool",
+      "full_name": "dev/cli-tool",
+      "html_url": "https://github.com/dev/cli-tool",
+      "description": "A tiny cross-platform CLI utility.",
+      "language": "Go",
+      "stargazers_count": 128
+    },
+    "starred_at": "2026-07-20T08:15:00Z"
+  },
+  {
+    "id": "3",
+    "repo": {
+      "name": "ui-kit",
+      "full_name": "designer/ui-kit",
+      "html_url": "https://github.com/designer/ui-kit",
+      "description": "A collection of reusable UI components.",
+      "language": "TypeScript",
+      "stargazers_count": 560
+    },
+    "starred_at": "2026-06-05T18:00:00Z"
+  }
+]

@@ -1,0 +1,31 @@
+:root {
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --muted: #6b7280;
+  --accent: #0366d6;
+}
+
+* { box-sizing: border-box; }
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin: 0;
+  padding: 24px;
+  background: var(--bg);
+  color: #0f172a;
+}
+
+h1 { margin: 0 0 8px 0; font-size: 1.5rem; }
+p { margin: 0 0 18px 0; color: var(--muted); }
+
+.repo-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.repo { background: var(--card); padding: 12px; border-radius: 8px; box-shadow: 0 1px 2px rgba(15,23,42,0.04); }
+.repo-name { font-weight: 600; color: var(--accent); text-decoration: none; }
+.description { margin: 6px 0; color: #0b1220; }
+.meta { color: var(--muted); font-size: 0.9rem; display: flex; gap: 12px; align-items: center; }
+.stars { display: inline-flex; gap: 6px; align-items: center; }
+
+.empty { color: var(--muted); padding: 12px; }
+
+@media (min-width: 640px) {
+  body { padding: 32px; }
+}
